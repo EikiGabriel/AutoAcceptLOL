@@ -1,6 +1,7 @@
 import pyautogui
 import time
 
+
 def check_screen():
     button_pos = pyautogui.locateOnScreen('button_Aceitar.PNG', confidence=0.7)
 
